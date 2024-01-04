@@ -186,6 +186,6 @@ public class AirportRepository {
     public String addPassenger(Passenger passenger){
 
         passengerDb.put(passenger.getPassengerId(),passenger);
-        return "SUCCES";
+        return "SUCCESS";
     }
 }
